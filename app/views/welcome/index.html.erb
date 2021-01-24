@@ -1,17 +1,14 @@
 <h1>Seja Bem-Vindo!</h1>
 <p><strong>Data:</strong> <%= data_br(Date.today) %></p>
-<ul>
-  <li>
-    <%= link_to "Cadastro de moedas", coins_path %>
-  </li>
-</ul>
+
+<%= render "menu" %>
 
 <p>
   Você está em ambiente de <strong><%= ambiente_rails %></strong>
 </p>
 <p>
-  Eu sou uma variável de instância/sessão <%= @nome %>
+  Eu sou uma variável de instância/sessão <strong><%= @meu_nome %></strong>
 </p>
 <p>
-  Meu curso é o curso de <%= @curso %>
+  Meu curso é o curso de <strong><%= @curso %></strong>
 </p>
