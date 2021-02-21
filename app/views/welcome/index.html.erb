@@ -1,23 +1,8 @@
-<p>
-  <%= link_to 'Português', root_path(locale: 'pt-BR') %>
-</p>
-<p>
-  <%= link_to 'English', root_path(locale: 'en') %>
-</p>
+<div class="jumbotron">
+  <h1 class="display-4"><%= t('welcome') %></h1>
+  <p class="lead"><%= t('messages.welcome') %></p>
+  <hr class="my-4">
+  <p><%= t('messages.menu') %></p>
+  <%= render "menu" %>
+</div>
 
-<h1>Seja Bem-Vindo!</h1>
-<p>O idioma usado nessa aplicação é: <strong><%= t('actual_locale') %></strong></p>
-<p><strong>Data:</strong> <%= l(Date.today) %></p>
-<p><%= t('hello') %></p>
-
-<%= render "menu" %>
-
-<p>
-  Você está em ambiente de <strong><%= ambiente_rails %></strong>
-</p>
-<p>
-  Eu sou uma variável de instância/sessão <strong><%= @meu_nome %></strong>
-</p>
-<p>
-  Meu curso é o curso de <strong><%= @curso %></strong>
-</p>
