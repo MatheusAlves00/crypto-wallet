@@ -2,6 +2,7 @@
   "name": "crypto_wallet",
   "private": true,
   "dependencies": {
+    "@rails/webpacker": "5.2.1",
     "bootstrap": "^4.1.3",
     "jquery": "3.3.1",
     "notify-js-legacy": "^0.4.1",
@@ -10,5 +11,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "Matheus Alves",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "webpack-dev-server": "^3.11.2"
+  }
 }
