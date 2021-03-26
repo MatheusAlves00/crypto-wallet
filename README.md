@@ -1,29 +1,33 @@
-
-![Logo of the project](https://github.com/MatheusAlves00/crypto-wallet/blob/master/public/readme_images/logo.png)
-
 ## Crypto Wallet
 
-...  Description
+![Project Introduction](https://github.com/MatheusAlves00/crypto-wallet/blob/master/public/readme_images/introduction.gif)
+
+## Description
+
+...  The project is a basic CRUD made in Ruby on Rails for your cryptocurrencies.
 
 ## Technology
 
 Here are the technologies used in  this  project.
 
-*  Ruby version x.x.x
+*  Ruby version 2.5.0
 
-*  Rails version  x.x.x
+*  Rails version  5.2.0
 
-*  ...
+*  Sqlite
 
 ## Services Used
 
 *  Github
 
-*  ...
+*  Heroku
 
 ## Ruby Gems
 
-...
+*  Rails i18n
+*  Pry-rails
+*  TTY-spinner
+*  Webpacker
 
 ## Getting started
 
@@ -39,27 +43,17 @@ Here are the technologies used in  this  project.
 
 > $  rails  s
 
-## How to use
-
-![Logo of the project](https://github.com/MatheusAlves00/crypto-wallet/blob/master/public/readme_images/welcome.png)
-![Logo of the project](https://github.com/MatheusAlves00/crypto-wallet/blob/master/public/readme_images/coin.png)
-![Logo of the project](https://github.com/MatheusAlves00/crypto-wallet/blob/master/public/readme_images/show_coin.png)
-![Logo of the project](https://github.com/MatheusAlves00/crypto-wallet/blob/master/public/readme_images/new_coin.png)
-![Logo of the project](https://github.com/MatheusAlves00/crypto-wallet/blob/master/public/readme_images/edit_coin.png)
-![Logo of the project](https://github.com/MatheusAlves00/crypto-wallet/blob/master/public/readme_images/miningType.png)
-![Logo of the project](https://github.com/MatheusAlves00/crypto-wallet/blob/master/public/readme_images/show_miningType.png)
-![Logo of the project](https://github.com/MatheusAlves00/crypto-wallet/blob/master/public/readme_images/new_miningType.png)
-![Logo of the project](https://github.com/MatheusAlves00/crypto-wallet/blob/master/public/readme_images/edit_miningType.png)
-
 ## Features
 
--  Here will be the features.
+-  Create, read, update and delete your cryptocurrencies.
+-  Add your mining types to your cryptocurrencies.
+-  Selection of two languages for the system.
 
 ## Links
 
--  Link of deployed application:  (if  has been deployed)
+-  Link of deployed application:  https://whispering-badlands-07469.herokuapp.com/
 
--  Repository:  https://link_of_repository
+-  Repository:  https://github.com/MatheusAlves00/crypto-wallet
 
 -  In  case  of sensitive bugs like security vulnerabilities,  please contact
 
@@ -73,7 +67,7 @@ to  improve the security and  privacy of this  project!
 
 ## Authors
 
-*  **YOUR NAME**:  @YOUR_GITHUB_NICKNAME  (https://github.com/YOUR_GITHUB_NICKNAME)
+*  **Matheus Alves de Almeida**:  @MatheusAlves00  (https://github.com/MatheusAlves00)
 
 Please follow github and  join us!
 
