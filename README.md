@@ -55,16 +55,6 @@ Here are the technologies used in  this  project.
 
 -  Repository:  https://github.com/MatheusAlves00/crypto-wallet
 
--  In  case  of sensitive bugs like security vulnerabilities,  please contact
-
-YOUR EMAIL directly instead of using issue tracker.  We value your effort
-
-to  improve the security and  privacy of this  project!
-
-## Versioning
-
-1.0.0.0
-
 ## Authors
 
 *  **Matheus Alves de Almeida**:  @MatheusAlves00  (https://github.com/MatheusAlves00)
